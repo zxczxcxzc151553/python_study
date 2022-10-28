@@ -5,7 +5,7 @@
 
 file_editor = open(file="fileio/test.txt", mode="w", encoding="utf-8")
 
-file_editor.write("안녕하세요")
+file_editor.write("\n안녕하세요")
 
 # 파일을 open 했으면 반드시 close 해주는것이 좋다.
 file_editor.close()
